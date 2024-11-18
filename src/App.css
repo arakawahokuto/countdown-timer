@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+	font-size: 1.6rem;
+  background-color: #f5e8c7;
+  font-family: 'Arial', sans-serif;
+}
+
+.p-timer {
+	margin: 0 16px;
+	padding: 20px;
+  text-align: center;
+  background-color: #fff3e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.c-heading-01 {
+  font-size: 3.6rem;
+  color: #d35400;
+}
+
+.c-heading-02 {
+  font-size: 2.4rem;
+	text-align: left;
+}
+
+.p-timer__item {
+	margin-top: 48px;
+}
+
+.p-timer__pasta-group:not(:first-of-type) {
+	margin-top: 32px;
+}
+
+.p-timer__pasta-wrap {
+	margin-top: 8px;
+	padding: 16px 0 0 16px;
+	background: #FFF;
+	border-radius: 10px;
+}
+
+.p-timer__pasta-wrap button {
+	margin: 0 16px 16px 0;
+	padding: 10px 20px;
+  background-color: #ffa726;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.p-timer__pasta-wrap button:hover {
+  background-color: #fb8c00;
+}
+
+.p-timer__pasta-wrap button.selected {
+  background-color: #fb8c00;
+  border: 2px solid #e65100;
+}
+
+.p-timer__pasta-wrap button:disabled {
+  background-color: #ffe0b2;
+  cursor: not-allowed;
+}
+
+.p-timer__pasta-btn-wrap {
+	margin-top: 24px;
+}
+
+.p-timer__pasta-btn-wrap button {
+	margin: 0 16px 16px 0;
+	padding: 10px 20px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.p-timer__pasta-btn-wrap button:hover {
+  background-color: #aaa;
+}
+
+.p-timer__pasta-btn-wrap button:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+.p-timer__item-primary {
+	display: inline-block;
+	margin-top: 24px;
+  font-size: 7.2rem;
+	font-weight: 900;
+  font-family: 'monospace';
+  color: #d35400;
+  background-color: #fffde7;
+  padding: 10px 20px 19px;
+  border-radius: 8px;
+}
+
+.p-timer__complete-text {
+  font-size: 5.6rem;
+	font-weight: bold;
+  color: #d32f2f;
+  margin-top: 10px;
+}
+
